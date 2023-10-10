@@ -7,7 +7,6 @@ int main()
 	for (int i = 1; i <= n; i++) {
 		cin >> a[i];
 	}
-	if (a[i]<50000 && a[i]>-50000) {
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j < n; j++) {
 				if (a[j] > a[j + 1]) {
@@ -19,5 +18,4 @@ int main()
 		}
 		for (int i = 1; i <= n; i++)
 			cout << a[i] << " ";
-	}
 }
